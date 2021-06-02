@@ -28,9 +28,10 @@ function myButtonWasClicked() {
 
 function playAudio() {
     backgroundAudio.play()
+    playAudio()
 }
 
-playAudio()
+
 
 function changeStyle() {
     audioBtnEl.style.color = "white";
