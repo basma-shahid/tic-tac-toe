@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.gif");
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.sound-button {
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+    color: grey;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+#button {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+
+}
+
+#grid { 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    visibility: hidden;
+    }
+
+#grid > div {
+    font-size: 5vw;
+    padding: .5em;
+    background: gold;
+    text-align: center;
+    visibility: hidden;
+  }
+
+#rocket {
+    position: absolute;
+    top: 62%;
+    left: 41%;
+    right: 80%;
+}
+
+#alien {
+    position: relative;
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+
+#player {
+    color: white;
+}
+
