@@ -7,7 +7,7 @@
 body {
     background-image: url("alienrocketbackground1.gif");
     font-family: 'Press Start 2P', cursive;
-    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     text-align: center;
 }
